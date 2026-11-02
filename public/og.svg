@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f6f3ec"/>
+  <rect x="62" y="62" width="1076" height="506" rx="38" fill="#fffdf8" stroke="#d8d1c4" stroke-width="3"/>
+  <circle cx="980" cy="190" r="90" fill="#dcebe4"/>
+  <text x="130" y="205" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#2f6f5e">YOUR WRITING ROOM</text>
+  <text x="125" y="315" font-family="Arial,sans-serif" font-size="86" font-weight="700" letter-spacing="-4" fill="#1d1b17">SongPad</text>
+  <text x="130" y="382" font-family="Arial,sans-serif" font-size="30" fill="#625d53">Write lyrics. Keep your beats. Record takes.</text>
+  <text x="947" y="218" font-family="Arial,sans-serif" font-size="90" fill="#2f6f5e">♫</text>
+  <path d="M130 470h25v-46h16v95h16v-73h16v58h16v-83h16v102h16v-48h16v48h16v-79h16v72h16v-58h16v58h16v-92h16v98h16v-41h16v41h16v-67h16v67h16" fill="none" stroke="#2f6f5e" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity=".8"/>
+</svg>

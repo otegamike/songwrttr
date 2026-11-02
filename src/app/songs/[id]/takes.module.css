@@ -1,0 +1,22 @@
+.recordingArea { display:grid; gap:var(--space-3); padding-bottom:90px; }
+.recordRow,.row,.sheetHead { display:flex; align-items:center; gap:var(--space-3); flex-wrap:wrap; }
+.record { min-height:48px; padding:0 var(--space-5); border:0; border-radius:var(--radius-pill); background:#a33a32; color:white; font-weight:750; }
+.stop { min-height:48px; padding:0 var(--space-5); border:0; border-radius:var(--radius-pill); background:var(--color-text); color:var(--color-bg); font-weight:750; }
+.callout,.error { padding:var(--space-3); border-radius:var(--radius-md); background:var(--color-accent-soft); color:var(--color-text); }
+.error { background:var(--color-danger-soft); color:var(--color-danger); }
+.callout button { margin-left:var(--space-2); min-height:40px; border:1px solid var(--color-border); border-radius:var(--radius-pill); background:var(--color-surface); padding:0 var(--space-3); }
+.review { display:grid; gap:var(--space-3); padding:var(--space-4); border:1px solid var(--color-accent); border-radius:var(--radius-lg); background:var(--color-surface); }
+.review audio { width:100%; }
+.review label { display:grid; gap:var(--space-1); font-size:var(--text-sm); font-weight:650; }
+.review input,.takeCard input { min-height:44px; border:1px solid var(--color-border); border-radius:var(--radius-sm); padding:0 var(--space-3); background:var(--color-bg); }
+.row button,.takeCard button,.sheetHead button,.dismiss { min-height:44px; border:1px solid var(--color-border); border-radius:var(--radius-pill); padding:0 var(--space-3); background:var(--color-surface); font-weight:650; }
+.takesBar { position:fixed; z-index:4; left:50%; bottom:max(12px,env(safe-area-inset-bottom)); transform:translateX(-50%); width:min(560px,calc(100% - 24px)); min-height:56px; display:flex; align-items:center; justify-content:space-between; padding:0 var(--space-5); border:1px solid var(--color-border); border-radius:var(--radius-pill); background:var(--color-text); color:var(--color-bg); box-shadow:var(--shadow-lg); font-weight:750; }
+.backdrop { position:fixed; inset:0; z-index:5; display:flex; align-items:flex-end; background:var(--color-overlay); }
+.sheet { width:min(760px,100%); max-height:min(82dvh,760px); margin:0 auto; padding:var(--space-5); padding-bottom:max(var(--space-5),env(safe-area-inset-bottom)); display:grid; grid-template-rows:auto minmax(0,1fr) auto auto; gap:var(--space-3); border-radius:var(--radius-lg) var(--radius-lg) 0 0; background:var(--color-surface); box-shadow:var(--shadow-lg); }
+.sheetHead { justify-content:space-between; }
+.takeList { min-height:0; overflow:auto; display:grid; align-content:start; gap:var(--space-2); }
+.takeCard { display:flex; align-items:center; flex-wrap:wrap; gap:var(--space-2); padding:var(--space-3); border:1px solid var(--color-border); border-radius:var(--radius-md); }
+.takeCard div { flex:1; min-width:140px; }
+.takeCard p { color:var(--color-text-muted); font-size:var(--text-sm); }
+.dismiss { justify-self:end; }
+@media(max-width:560px) { .takeCard { align-items:stretch; } .takeCard button { flex:1; } .sheet { padding:var(--space-4) var(--space-3) max(var(--space-4),env(safe-area-inset-bottom)); } }
